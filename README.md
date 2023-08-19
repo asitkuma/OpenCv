@@ -1,3 +1,3 @@
 # OpenCv
 
-This is completely for beginners ..and i will keeop uploading more advance topics....so stay tuned..
+This is completely for beginners ..and i will keep uploading more advance topics....so stay tuned..
