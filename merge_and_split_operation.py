@@ -1,0 +1,15 @@
+#take 3 diffewrent image and add diff color sopaces
+import cv2
+img=cv2.imread("contour_image.png")
+img=cv2.resize(img,(500,500))
+img2=cv2.imread("face.jpeg")
+img2=cv2.resize(img2,(500,500))
+img3=cv2.imread("morphology.jpg")
+img3=cv2.resize(img3,(500,500))
+b,g,r=cv2.split(img)
+b1,g1,r1=cv2.split(img2)
+b2,g2,r2=cv2.split(img3)
+merging_image=cv2.merge([b,g1,r2])
+cv2.imshow("merged image",merging_image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
